@@ -28,7 +28,7 @@ ACCOUNTS = [
         "client_id": "",
         "api_key": "",
     }
-#### you want add as much you want
+#### add as many accounts as you need
 #### before using it make sure that you gave to API token required role (in this case it should be "Actions" inside the ozon API integrations has to be granted)
 ]
 
@@ -42,7 +42,7 @@ TELEGRAM_CHAT_ID: str = "" #### TG chat ID
 
 ######
 ######
-# This excluded action names implies that these particular actions (promotions, sales whatever you want call them) won't be deleted, you just need to type their ID please names :D
+# This excluded action names implies that these particular actions (promotions, sales whatever you want to call them) won't be deleted, you just need to type their ID and names :D
 ######
 ######
 EXCLUDED_ACTION_NAMES: Set[str] = {
